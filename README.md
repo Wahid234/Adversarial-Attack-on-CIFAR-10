@@ -32,6 +32,7 @@ unzip ./data.zip
 
 
 ## Project Structure
+```
 ├── data/                   # Folder containing the benign images
 ├── fgsm/                   # Folder storing FGSM-generated adversarial examples
 ├── mifgsm/                 # Folder storing MI-FGSM-generated adversarial examples
@@ -40,7 +41,7 @@ unzip ./data.zip
 ├── adversarial_attack.ipynb# Jupyter Notebook with full code and explanation
 ├── README.md               # This file
 └── requirements.txt        # Required Python packages
-
+```
 ## Usage
 Run the Notebook:
 Open the adversarial_attack.ipynb in Jupyter Notebook and execute the cells sequentially. This will:
@@ -61,7 +62,11 @@ Benign Image
 
 ![Figure](image1.png) : An example of a benign image from the CIFAR-10 dataset with its predicted label. with Adversarial Image (MI-FGSM):  The corresponding adversarial image generated using MI-FGSM. Note the slight perturbations that cause the model to misclassify the image.
 
-Additionally, a separate example is provided for a "dog" image where ![Figure](image2.png) the benign image is correctly classified and ![Figure](image3.png) the adversarial version causes misclassification.
+Additionally, a separate example is provided for a "dog" image where  the benign image is correctly classified ![Figure](image2.png)
+
+and ![Figure](image3.png) 
+
+the adversarial version causes misclassification.
 
 
 ## Contributing
